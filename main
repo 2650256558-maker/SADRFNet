@@ -77,7 +77,7 @@ OVERWRITE_SPLIT = True
 IMAGE_SIZE = 224
 
 EPOCHS = 140
-NUM_RUNS = 1
+NUM_RUNS = 5
 BASE_SEED = 42  # 基础随机种子
 SEED_STEP = 1   # 每次重复实验随机种子的递增步长;SEED_STEP = 1 表示 seed 依次为 42、43、44。如果设为 10，则为 42、52、62。
 
